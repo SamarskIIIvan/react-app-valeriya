@@ -1,11 +1,43 @@
-import "./Header.css"
-import img from "../../images/465080.jpeg"
+import "./Nav.css"
 
-export const Header = () =>{
+import {NavLink} from "react-router-dom";
+
+export const Nav = () =>{
     return(
-        <div>
-            <h1 className={"text"}>Научно-познавательный сайт о наноэлектронике как области науки (история возникнавения, развитие).</h1>
-            <img src={img} alt="img" className={"img"}/>
+        <div className={'nav'} >
+            <NavLink
+                to="/nano"
+                style={({ isActive }) => {
+                    return {color: isActive ? 'red' : 'Black'}
+                }}
+            >
+                Наноэлектроника
+            </NavLink >
+            <NavLink
+                to="/history"
+                style={({ isActive }) => {
+                    return {color: isActive ? 'red' : 'Black'}
+                }}
+            >
+                История
+            </NavLink>
+            <NavLink
+                to="/dev"
+                style={({ isActive }) => {
+                    return {color: isActive ? 'red' : 'Black'}
+                }}
+            >
+                Развитие
+            </NavLink>
+            <NavLink
+                to="/tasks"
+                style={({ isActive }) => {
+                    return {color: isActive ? 'red' : 'Black'}
+                }}
+            >
+                Основные задачи
+            </NavLink>
+
         </div>
     )
 }

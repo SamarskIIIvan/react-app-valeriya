@@ -1,9 +1,9 @@
-.text{
-    color: black;
+.nav{
+    font-size: 2.0rem;
 }
-
-.img{
-    width: 100%;
-    height: 800px;
+.nav a{
+    text-decoration: none;
+    display:inline-block;
+    padding:20px;
 }
 
