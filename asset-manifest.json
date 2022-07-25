@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-app-valeriya/static/css/main.bc15cf4f.css",
+    "main.js": "/react-app-valeriya/static/js/main.cae7d35b.js",
+    "static/js/787.af5332c8.chunk.js": "/react-app-valeriya/static/js/787.af5332c8.chunk.js",
+    "static/media/465080.jpeg": "/react-app-valeriya/static/media/465080.44552601c19eac613ea3.jpeg",
+    "index.html": "/react-app-valeriya/index.html",
+    "main.bc15cf4f.css.map": "/react-app-valeriya/static/css/main.bc15cf4f.css.map",
+    "main.cae7d35b.js.map": "/react-app-valeriya/static/js/main.cae7d35b.js.map",
+    "787.af5332c8.chunk.js.map": "/react-app-valeriya/static/js/787.af5332c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc15cf4f.css",
+    "static/js/main.cae7d35b.js"
+  ]
+}
